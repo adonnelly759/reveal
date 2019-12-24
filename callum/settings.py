@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '560ok__y_=nlvvcvz54(m970)by%=t7*atnww&93dbmw4!r4ah'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['18.217.212.64', 'ec2-18-217-212-64.us-east-2.compute.amazonaws.com', '127.0.0.1', 'callumxmas.co.uk', 'www.callumxmas.co.uk']
+ALLOWED_HOSTS = ['18.217.212.64', 'ec2-18-217-212-64.us-east-2.compute.amazonaws.com', '127.0.0.1', 'www.callumxmas.co.uk', 'callumxmas.co.uk', 'http://callumxmas.co.uk']
 
 
 # Application definition
